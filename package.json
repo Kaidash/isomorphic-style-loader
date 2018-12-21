@@ -2,7 +2,7 @@
   "name": "isomorphic-style-loader",
   "version": "4.0.0",
   "description": "CSS style loader for Webpack optimized for critical path CSS rendering and isomoprhic web apps",
-  "repository": "kriasoft/isomorphic-style-loader",
+  "repository": "Kaidash/isomorphic-style-loader",
   "author": "Kriasoft <hello@kriasoft.com> (https://www.kriasoft.com)",
   "contributors": [
     "Konstantin Tarkus <hello@tarkus.me> (https://medium.com/@tarkus)",
