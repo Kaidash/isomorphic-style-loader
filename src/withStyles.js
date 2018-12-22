@@ -30,10 +30,15 @@ function withStyles(...styles) {
 
       render() {
         return (
-          <ComposedComponent
-            {...this.props}
-            ref={(node) => { this.refComposedComponent = node; }}
-          />
+          Object.getPrototypeOf(ComposedComponent).name ?
+            <ComposedComponent
+              {...this.props}
+              ref={(node) => { this.refComposedComponent = node; }}
+            />
+            :
+            <ComposedComponent
+              {...this.props}
+            />
         );
       }
     }
